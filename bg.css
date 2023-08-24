@@ -1,0 +1,42 @@
+section{
+    width: 400px;
+    height: 200px;
+    /*border: 10px solid;*/
+    margin-bottom: 20px;
+}
+
+
+section:nth-of-type(1){
+    background-image: linear-gradient(to bottom right, rgba(0, 128, 0, 0.564) 50%, rgba(255, 0, 0, 0.455) 50%), url(./images/0_Rashford.jpg), url(./images/3137538-64306488-2560-1440.jpg), url(./images/Manchester-Utd-Marcus-Rashford.jpg);
+    background-size: 400px, 100px, 110px,110px;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: bottom right, top left, center;
+}
+section:nth-of-type(2){
+    background-image: url(./images/star.png), url(./images/star.png), url(./images/star.png);
+    background-size: 80px, 30px, 30px;
+    background-repeat: no-repeat;
+    /*background-position: top left;*/
+    background-position: 100px 10px, 130px 40px, 70px 150px;
+}
+section:nth-of-type(3){
+    background-image: url(./images/star.png), url(./images/star.png), url(./images/star.png), url(./images/star.png), url(./images/star.png), radial-gradient(red, red);
+    background-size: 80px, 30px, 30px, 30px, 30px, contain;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, repeat;
+    height: 200px;
+    background-position: 30px 20px, 100px 10px, 120px 35px, 120px 70px,90px 100px;
+}
+
+section:nth-of-type(4){
+    max-height: 300px;
+    overflow: auto;
+    padding: 10px;
+    margin-bottom: 30;
+    border: 15px groove gold;
+}
+
+section:nth-of-type(5){
+    min-height: 200px;
+    border-right: 15px ridge tan;
+    border-left: 15px ridge black;
+}
